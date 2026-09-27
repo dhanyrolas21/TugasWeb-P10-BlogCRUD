@@ -53,6 +53,10 @@ Hasil pengujian manipulasi data CRUD yang terverifikasi secara langsung pada tab
    cd TugasWeb-P10-BlogCRUD
 
    .
+## 📁 Struktur Direktori Proyek
+
+```text
+.
 ├── app/
 │   ├── Http/
 │   │   └── Controllers/
@@ -61,21 +65,22 @@ Hasil pengujian manipulasi data CRUD yang terverifikasi secara langsung pada tab
 │       └── Post.php                  # Model Eloquent Post ($fillable)
 ├── database/
 │   └── migrations/
-│       └── xxxx_xx_xx_xxxxxx_create_posts_table.php # Skema tabel posts (title, slug, author, body)
+│       └── xxxx_xx_xx_xxxxxx_create_posts_table.php # Skema tabel posts
 ├── resources/
 │   └── views/
 │       ├── components/
 │       │   └── alert.blade.php       # Blade component untuk notifikasi flash message
 │       ├── layouts/
-│       │   └── app.blade.php         # Master layout antarmuka aplikasi bertema NVIDIA GeForce
+│       │   └── app.blade.php         # Master layout bertema NVIDIA GeForce
 │       └── posts/
-│           ├── create.blade.php      # Halaman form tambah artikel baru
-│           ├── edit.blade.php        # Halaman form edit artikel
-│           ├── index.blade.php       # Halaman daftar artikel + pagination
+│           ├── create.blade.php      # Form tambah artikel baru
+│           ├── edit.blade.php        # Form edit artikel
+│           ├── index.blade.php       # Halaman daftar artikel
 │           └── show.blade.php        # Halaman detail baca artikel
 ├── routes/
 │   └── web.php                       # Definisi Route::resource('posts')
 └── README.md                         # Dokumentasi utama proyek
+```
 
 Dhany Rolas
 Tugas Mata Kuliah PemrogramanWeb-P10-BlogCRUD. 
